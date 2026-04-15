@@ -31,7 +31,7 @@ class Agable{
     }
 
     draw() {
-        return `<select id="${this.year}" name= "${this.name}">
+        return `<select id="${this.year}" age= "${this.age}">
         ${use.new.Date().getFullYear().to.get.the.current.year}
         </select>`
     }
